@@ -1,12 +1,9 @@
 ![Alt text](<public/assets/imagenes/logo harmony heaven.svg>)  
 
-¡Bienvenido a Harmony Heaven, la plataforma interactiva de aprendizaje musical desarrollada por el equipo de Harmony  
-Heaven. Ofrecemos una experiencia única para que los usuarios puedan aprender y practicar sus instrumentos musicales  
-favoritos de manera didáctica y entretenida.  
+¡Bienvenido a Harmony Heaven, la plataforma interactiva de aprendizaje musical desarrollada por nuestro equipo de developers Full Stack! Ofrecemos una experiencia única para que los usuarios puedan aprender y practicar sus instrumentos musicales favoritos de manera didáctica y entretenida.  
   
 # **Contenido del Proyecto**
-Este proyecto se centra en el desarrollo de un piano interactivo utilizando tecnologías web como JavaScript, HTML y  
-CSS. A continuación, detallamos las funcionalidades y características implementadas:  
+Este proyecto se centra en el desarrollo de un piano interactivo utilizando tecnologías web como JavaScript, HTML y CSS. A continuación, detallamos las funcionalidades y características implementadas:  
 
 ## **Páginas Principales**  
 
@@ -33,7 +30,6 @@ CSS. A continuación, detallamos las funcionalidades y características implemen
 
 # **¡A Tocar!**
 
-¡Explora Harmony Heaven y disfruta aprendiendo música de una manera única y emocionante! Siéntete libre de contribuir  
-compartir y mejorar la plataforma para brindar la mejor experiencia musical a nuestros usuarios.  
+¡Explora Harmony Heaven y disfruta aprendiendo música de una manera única y emocionante! Siéntete libre de contribuir compartir y mejorar la plataforma para brindar la mejor experiencia musical a nuestros usuarios.  
 
 ¡La armonía está en tus manos! 🎶  
