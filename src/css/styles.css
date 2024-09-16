@@ -210,7 +210,7 @@
 
 .card-section-2 {
     width: 20vw; 
-    margin: 5%;
+    margin: 1rem;
 }
 
 .instrument {
@@ -225,7 +225,9 @@
     font-weight: 900;
     line-height: normal;
     letter-spacing: -0.7px;
-    }
+    margin-bottom: 0.3rem;
+}
+
 
 .card-text {
     color: #000;
@@ -235,6 +237,7 @@
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.3px;
+    margin-bottom: 0.3rem;
 }
 
 /* fin section-2 */
