@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing:border-box;
   } /*si ponermos el * en vez de body, el logo se modifica*/
+
   /*AQUI EMPIEZA LA NAV BAR*/
   .logo {
     position: absolute;
@@ -119,6 +120,11 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.construction a {
+  text-decoration: none;
+  color: #000;
 }
 
 /* 404 */
