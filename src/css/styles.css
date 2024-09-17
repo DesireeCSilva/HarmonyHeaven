@@ -147,6 +147,7 @@
     line-height: normal;
     letter-spacing: -0.96px;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .highlight-text {
@@ -159,7 +160,7 @@
     letter-spacing: -0.96px;
 }
 
-.button-section-1 {
+.button-section-1 a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,7 +168,7 @@
     height: 10vh;
     flex-shrink: 0;
     box-shadow: 4px 4px 2px 0px #EB4138;
-    margin-top: 2%;
+    cursor: pointer;
 }
 
 .button-cta {
@@ -211,6 +212,14 @@
 .card-section-2 {
     width: 20vw; 
     margin: 1rem;
+    padding: 0.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+.card-section-2:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
 }
 
 .instrument {

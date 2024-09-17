@@ -135,6 +135,12 @@ width: 40rem;
 height: auto;
 padding: 1rem;
 color: white;  
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team_member:hover {
+  transform: scale(1.05); 
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
 }
 
 .text_member {
