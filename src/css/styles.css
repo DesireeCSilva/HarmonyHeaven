@@ -148,7 +148,7 @@
     letter-spacing: -0.96px;
     text-align: center;
     margin-bottom: 1rem;
-}
+} 
 
 .highlight-text {
     color: #FAC348;
@@ -160,15 +160,15 @@
     letter-spacing: -0.96px;
 }
 
-.button-section-1 a{
+.button-section-1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20vw;
-    height: 10vh;
-    flex-shrink: 0;
+    width: auto;
+    height: auto;
     box-shadow: 4px 4px 2px 0px #EB4138;
     cursor: pointer;
+    padding: 1rem;
 }
 
 .button-cta {
@@ -178,9 +178,14 @@
     font-size: 2rem;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: -0.64px;
-    padding: 1vw;
+    padding: .5rem;
+   
+}
+
+.button-section-1 a {
+    text-decoration: none;
+    display: flex;
 }
 
 /* fin section-1 */

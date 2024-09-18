@@ -78,8 +78,8 @@
         flex-direction: row;
         justify-content: flex-end;
         transform: translateY(0); /*Esto lo pongo para que semustre mimenu aunque en el modo menu hamburguesa para l movil lo haya ocultado*/
-        height: 100px; /*la altura de mi navbar*/
-        padding-right: 4em;/* para dar margen derecho a Contacto*/
+        height: 100px; 
+        padding-right: 4em;
     }
   }
   
@@ -98,15 +98,20 @@
 
 /*CSS DE CONTENIDO DE TEXTO*/
 .instrument-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
 .img-notamusical{
+  width: auto;
+  height: auto;
 margin-top: 5%;
 }
 
 .instrument-introduction{
-  margin: 0.5em/*top*/ 3em/*right*/ 0.5em/*bottom*/ 3em;/*left*/
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   font-style: normal;
@@ -114,6 +119,7 @@ margin-top: 5%;
   line-height: normal;
   letter-spacing: -0.96px;
   text-align: center;
+  width: 90%;
 }
 
 .colorido{
@@ -127,7 +133,9 @@ margin-top: 5%;
 }
 
 .img-teclado {
-  width: 100vh;
+  width: 100%;
+  height: auto;
+  padding: 0 2rem;
   margin-top: 3em;
   margin-bottom: 3em;
 }
@@ -143,7 +151,7 @@ margin-top: 5%;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin: 0.5em/*top*/ 3em/*right*/ 0.5em/*bottom*/ 3em/*left*/
+  margin: 0.5em 3em 0.5em 3em;
 }
 
 .instrument-description{
@@ -152,7 +160,7 @@ margin-top: 5%;
   font-weight: 500;
   line-height: normal;
   font-size: 1.5rem ;
-  margin: 0.5em/*top*/ 3em/*right*/ 0.5em/*bottom*/ 3em/*left*/;
+  margin: 0.5em 3em 0.5em 3em;
 }
 
 /*piano csss*/
@@ -160,13 +168,12 @@ margin-top: 5%;
 display: flex;
 align-items: center;
 justify-content: center;
-min-height: 80vh; /*ayuda a ajustar el piano en l body*/
-padding: 0 10px;
+height: auto; 
 background-color: #fff;
+margin: 2rem 0;
 }
 
 .wrapper{
-    /*width: 780px;*/
     border-radius: 20px;
     padding: 35px 40px;
     background: black;
@@ -221,7 +228,7 @@ header .column span{
     position: absolute;
     background: #8c8c8c;
     transform: translateY(-50%);
-    transition: all 0.3s ease; /*transicion del boton*/
+    transition: all 0.3s ease; 
 }
 
 .keys-checkbox input:checked::before{
@@ -237,7 +244,7 @@ header .column span{
 
 .piano-keys .key{
     cursor: pointer;
-    user-select: none;/*Para evitar qe el usuario selecciones las letras*/
+    user-select: none;
     list-style: none;
     color: #a2a2a2;
     position: relative;
@@ -253,7 +260,7 @@ header .column span{
     background: linear-gradient(#333, #000);
 }
 
-.piano-keys .black.active{/*animando las teclas, esto lo llamamos en JS*/
+.piano-keys .black.active{
     box-shadow: inset -5px 5px 20px rgba(255, 255, 255, 0.1);
     background: linear-gradient(to bottom, #000, #434343);
 }
@@ -271,7 +278,7 @@ header .column span{
     background: linear-gradient(to bottom, #fff 0%, #eee 100%);
 }
 
-.piano-keys span{/*las letras del piano*/
+.piano-keys span{
     position: absolute;
     bottom: 20px;
     width: 100%;
@@ -286,9 +293,6 @@ header .column span{
 /*MEDIAS QUERIES*/
 
 @media screen and (max-width: 815px){
-    .wrapper{
-        padding:25px;
-    }
 
     header{
         flex-direction: column;
@@ -335,6 +339,7 @@ header .column span{
         width: 50px;
     }
 }
+
 
 /* footer */
 footer {
